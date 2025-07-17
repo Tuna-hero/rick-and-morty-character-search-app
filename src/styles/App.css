@@ -1,0 +1,75 @@
+.app {
+  text-align: center;
+background: #66FF00;
+background: linear-gradient(100deg, rgba(102, 255, 0, 1) 0%, rgba(255, 255, 255, 1) 58%);
+  min-height: 100vh;
+  padding: 2rem;
+color: #000;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+
+}
+.app h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px #66ff00;
+  color: white;
+}
+.app nav {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  color: #66FF00;
+
+}
+.app nav a {
+  color: #add8e6;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: bold;
+  font-size: large;
+}
+.app nav a:hover {
+  color: #fff;
+}
+
+input {
+  padding: 0.7rem 1rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: none;
+  margin-bottom: 2rem;
+  width: 400px;
+    box-shadow: 2px 2px 5px #66ff00;
+    max-width: 300px;
+}
+
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.error {
+  color: #ff4d4d;
+  margin-bottom: 1rem;
+}
+.search-bar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  
+}
+select {
+  padding: 0.7rem 1rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: none;
+  margin-bottom: 2rem;
+  width: 200px;
+  box-shadow: 2px 2px 5px #66ff00;
+}
